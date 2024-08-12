@@ -1,6 +1,7 @@
 # Vue 3 + TypeScript + Vite
 
 分支说明：切换主题色
+https://mp.weixin.qq.com/s/b0eZMr4sP4bHwvjqi5nYVw
 前言
 换肤功能是一项普遍的需求，尤其是在夜晚，用户更倾向于使用暗黑模式。在我负责的公司项目中，每个项目都有换肤功能的需求。
 过去，我主要使用 SCSS 变量，并利用其提供的函数，如 @each、map-get来实现换肤功能。但因其使用成本高，只能适用于SCSS项目，于是后来我改用 CSS 变量来实现换肤。这样无论是基于 LESS 的 React 项目，还是基于 SCSS 的 Vue 项目，都能应用换肤功能。并且使用时只需调用var函数，降低了使用成本。
